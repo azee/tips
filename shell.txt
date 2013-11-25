@@ -1,0 +1,3 @@
+To find process that occupied a port:
+sudo netstat -lpn |grep :PORT
+
