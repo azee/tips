@@ -1,0 +1,4 @@
+tips
+====
+
+Tips documentation
