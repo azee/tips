@@ -1,0 +1,6 @@
+
+#Make a branch replace master
+git checkout BRANCH_NAME
+git merge -s ours master
+git checkout master
+git merge BRANCH_NAME
