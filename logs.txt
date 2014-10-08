@@ -1,0 +1,2 @@
+If using logger from api-template then long executed records could be fetched using grep with regexp:
+less(|cat) /var/log/something.log |  grep "Processed" | grep '[[0-9]\{3\}] ms'
