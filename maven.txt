@@ -1,3 +1,5 @@
 If the build fails on "java.lang.OutOfMemoryError: PermGen space" then update maven options:
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
 Could be placed in /etc/profile
+
+Skip tests: mvn clean install -DskipTests=true
