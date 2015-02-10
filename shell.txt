@@ -9,4 +9,4 @@ Add ssl certificate to JVM:
 sudo /usr/lib/jvm/java-7-oracle/bin/keytool -import -alias st_test_true -file ~/Downloads/FILENAME -keystore /usr/lib/jvm/java-7-oracle/jre/lib/security/cacerts 
 
 Or:
-sudo $JAVA_HOME/bin/keytool -import -alias st_test_true -file ~/Downloads/FILENAME -keystore /usr/lib/jvm/java-7-oracle/jre/lib/security/cacerts
+sudo $JAVA_HOME/bin/keytool -import -alias st_test_true -file ~/Downloads/FILENAME -keystore $JAVA_HOME/jre/lib/security/cacerts
