@@ -1,0 +1,28 @@
+# IDEA Files
+.idea
+*.iml
+*.ipr
+*.class
+
+# Target directories
+target
+
+# Mac
+.DS_Store
+
+work
+
+*.java.orig
+*.orig
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
