@@ -4,6 +4,9 @@ sudo netstat -lpn |grep :PORT
 Mac:
 lsof -i tcp:PORT
 
+Memory:
+cat /proc/meminfo
+
 
 Add ssl certificate to JVM: 
 sudo /usr/lib/jvm/java-7-oracle/bin/keytool -import -alias st_test_true -file ~/Downloads/FILENAME -keystore /usr/lib/jvm/java-7-oracle/jre/lib/security/cacerts 
