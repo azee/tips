@@ -21,3 +21,6 @@ du --max-depth=2 /* | sort -n
 
 Remove host from known_hosts
 ssh-keygen -R hostname
+
+Fix ipv6 connection via WiFi on MAC
+sudo ifconfig awdl0 down
