@@ -24,3 +24,6 @@ ssh-keygen -R hostname
 
 Fix ipv6 connection via WiFi on MAC
 sudo ifconfig awdl0 down
+
+Debug localhost
+sudo tcpdump -A -i lo0 "tcp port 80"
