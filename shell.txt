@@ -27,3 +27,7 @@ sudo ifconfig awdl0 down
 
 Debug localhost
 sudo tcpdump -A -i lo0 "tcp port 80"
+
+SSH keep asking password
+eval $(ssh-agent)
+ssh-add path_to_private_key
