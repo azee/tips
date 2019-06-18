@@ -31,3 +31,6 @@ sudo tcpdump -A -i lo0 "tcp port 80"
 SSH keep asking password
 eval $(ssh-agent)
 ssh-add path_to_private_key
+
+Search for directories with multiple files if inodes are 100% full
+sudo find . -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -n
