@@ -6,3 +6,6 @@ Skip tests: mvn clean install -DskipTests=true
 
 Tests with embedded Postgres falling with incorrect Zone
  mvn -Duser.timezone=EDT clean install 
+ 
+ GPG signature failed during maven release on MAC "gpg: signing failed: Inappropriate ioctl for device"
+export GPG_TTY=$(tty)
