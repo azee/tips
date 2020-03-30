@@ -34,3 +34,6 @@ ssh-add path_to_private_key
 
 Search for directories with multiple files if inodes are 100% full
 sudo find . -xdev -type f | cut -d "/" -f 2 | sort | uniq -c | sort -n
+
+Print last command exit code
+printf '%d\n' $?
